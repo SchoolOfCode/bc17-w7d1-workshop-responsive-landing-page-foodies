@@ -6,10 +6,38 @@ body {
     max-width: 600px;
 }
 .bookConsultationBox {
-background-color: orange;
-max-width: 100%;
+    background-color: orange;
+    max-width: 100%;
+    padding: 1rem;
+    
+}
+
+.bookConsultationBox h2 {
+    font-size: 2rem;
+    margin: 0px;
+    
+}
+
+.bookConsultationText {
+    font-weight: bold;
 }
 
 .phoneNumber {
     color: white;
+}
+
+figure img {
+    width: 100%;
+}
+
+.smallImages {
+    max-width: 60%;
+    
+}
+
+.howItWorks {
+    max-width: 100%;
+    display: flex;      
+    flex-direction: column;
+    align-items: center;
 }
