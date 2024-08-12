@@ -1,0 +1,15 @@
+*{
+    font-family: "Aleo";
+}
+
+body {
+    max-width: 600px;
+}
+.bookConsultationBox {
+background-color: orange;
+max-width: 100%;
+}
+
+.phoneNumber {
+    color: white;
+}
