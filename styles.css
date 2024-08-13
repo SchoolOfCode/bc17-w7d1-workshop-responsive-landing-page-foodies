@@ -1,44 +1,97 @@
-*{
-    font-family: "Aleo";
+* {
+  font-family: "Aleo";
 }
 
 body {
-    max-width: 600px;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+.heroImg {
+  width: 100%;
+  margin: 0;
 }
 .bookConsultationBox {
-    background-color: orange;
-    max-width: 100%;
-    padding: 1rem;
-    
+  background-color: orange;
+  max-width: 100%;
+  padding: 1rem;
 }
 
 .bookConsultationBox h2 {
-    font-size: 2rem;
-    margin: 0px;
-    
+  font-size: 2rem;
+  margin: 0px;
 }
 
 .bookConsultationText {
-    font-weight: bold;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .phoneNumber {
-    color: white;
+  color: white;
+  font-size: 1.2rem;
 }
 
 figure img {
-    width: 100%;
+  width: 100%;
 }
 
-.howItWorks  {
-    max-width: 100%;
-    display: flex;      
-    flex-direction: column;
-    align-items: center;
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.howItWorks {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2.5rem;
 }
 
 .smallImages {
-    max-width: 60%;
-    align-items: center;
-    margin: 0 auto;
+  max-width: 60%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footerTitles,
+.findUs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.footerTitles {
+  padding-right: 1rem;
+}
+
+/* .findUs {
+    padding-left: 1rem;
+} */
+.socialMedia {
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: rgb(238, 238, 238);
+  padding: 1rem;
+  margin: 0;
+  padding-bottom: 6rem;
+}
+
+a {
+  color: black;
 }
